@@ -48,6 +48,10 @@
                             <constraint firstItem="6iv-vz-akY" firstAttribute="top" secondItem="3BK-mb-7Xy" secondAttribute="bottom" constant="99" id="sVg-xo-ego"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="getWeatherButtonTap" destination="6RP-nY-Twr" id="585-wX-4Z4"/>
+                        <outlet property="weatherLabel" destination="3BK-mb-7Xy" id="rEk-Wn-yUW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
